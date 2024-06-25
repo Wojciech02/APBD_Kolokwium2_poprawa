@@ -81,7 +81,7 @@ namespace KolokwiumDF.Controllers
             var price = doctor.VisitPrice;
             if (_context.Visits.Count(v => v.PatientId == visitDto.IdPatient) > 10)
             {
-                price *= 0.9M; // 10% discount
+                price *= 0.9M;
             }
 
             var visit = new Visit
