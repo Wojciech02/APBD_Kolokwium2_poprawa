@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kubab\\OneDrive\\Pulpit\\APBD\\ZAOCZNE\\Kolokwium\\Templatki\\KolokwiumDF\\KolokwiumDF\\KolokwiumDF.csproj": {}
+    "C:\\Users\\s24618\\Desktop\\APBD_Kolokwium2_poprawa\\KolokwiumDF\\KolokwiumDF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kubab\\OneDrive\\Pulpit\\APBD\\ZAOCZNE\\Kolokwium\\Templatki\\KolokwiumDF\\KolokwiumDF\\KolokwiumDF.csproj": {
+    "C:\\Users\\s24618\\Desktop\\APBD_Kolokwium2_poprawa\\KolokwiumDF\\KolokwiumDF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kubab\\OneDrive\\Pulpit\\APBD\\ZAOCZNE\\Kolokwium\\Templatki\\KolokwiumDF\\KolokwiumDF\\KolokwiumDF.csproj",
+        "projectUniqueName": "C:\\Users\\s24618\\Desktop\\APBD_Kolokwium2_poprawa\\KolokwiumDF\\KolokwiumDF.csproj",
         "projectName": "KolokwiumDF",
-        "projectPath": "C:\\Users\\kubab\\OneDrive\\Pulpit\\APBD\\ZAOCZNE\\Kolokwium\\Templatki\\KolokwiumDF\\KolokwiumDF\\KolokwiumDF.csproj",
-        "packagesPath": "C:\\Users\\kubab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kubab\\OneDrive\\Pulpit\\APBD\\ZAOCZNE\\Kolokwium\\Templatki\\KolokwiumDF\\KolokwiumDF\\obj\\",
+        "projectPath": "C:\\Users\\s24618\\Desktop\\APBD_Kolokwium2_poprawa\\KolokwiumDF\\KolokwiumDF.csproj",
+        "packagesPath": "C:\\Users\\s24618\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\s24618\\Desktop\\APBD_Kolokwium2_poprawa\\KolokwiumDF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kubab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\s24618\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,24 +75,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.15, 7.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.15, 7.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.15, 7.0.15]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.15, 7.0.15]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -100,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

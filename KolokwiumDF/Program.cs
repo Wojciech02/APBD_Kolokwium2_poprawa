@@ -1,3 +1,5 @@
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +9,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+
+builder.Services.AddDbContext<KolokwiumDF.Models.YourDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("Data Source=db-mssql16;Initial Catalog=s24618;Integrated Security=True")));
 
 var app = builder.Build();
 
@@ -26,3 +32,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
